@@ -32,7 +32,7 @@
 
       <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
         <a href="#topo" class="nav-link">Início</a>
-        <a href="#catalogo" class="nav-link">Catálogo</a>
+        <a href="catalogo.html" class="nav-link">Catálogo</a>
         <a href="#noticias" class="nav-link">Notícias</a>
         <a href="#sobre" class="nav-link">Sobre</a>
         <a href="#contactos" class="nav-link">Contactos</a>
@@ -52,18 +52,19 @@
   <main>
 
     <!-- ============ HERO / CARROSSEL ============ -->
-    <section class="hero" id="inicio" aria-label="Destaques">
+    <section class="hero" id="inicio" aria-label="Produtos mais vendidos">
       <div class="hero-grid-bg" aria-hidden="true"></div>
 
-      <div class="carousel" id="hero-carousel" aria-roledescription="carrossel" aria-label="Artigos em destaque">
+      <div class="carousel" id="hero-carousel" aria-roledescription="carrossel" aria-label="Produtos mais vendidos">
         <div class="carousel-track" id="carousel-track">
 
           <article class="slide is-active" aria-roledescription="diapositivo" aria-label="1 de 5">
             <div class="slide-content">
-              <p class="slide-tag">// Equipamento de Oficina</p>
-              <h2 class="slide-title">Elevadores &amp;<br><em>Alinhamento</em><br>de Direção</h2>
-              <p class="slide-desc">Elevadores, máquinas de alinhamento, regloscópios e extratores de óleo para oficinas que não param.</p>
-              <a href="#catalogo" class="btn btn-accent">Ver catálogo<span class="btn-arrow" aria-hidden="true">→</span></a>
+              <p class="slide-tag">// Mais Vendidos — Nº1 · TRN-0101</p>
+              <h2 class="slide-title">Elevador<br><em>2 Colunas</em><br>4 Toneladas</h2>
+              <p class="slide-desc">O preferido das oficinas: elevador eletro-hidráulico de duas colunas com desbloqueio automático e 4 toneladas de capacidade.</p>
+              <p class="slide-price">PVP 2 490 € <small>IVA incluído</small></p>
+              <a href="catalogo.html?q=TRN-0101" class="btn btn-accent">Ver artigo<span class="btn-arrow" aria-hidden="true">→</span></a>
             </div>
             <div class="slide-art" aria-hidden="true">
               <svg viewBox="0 0 400 400" class="slide-svg">
@@ -80,17 +81,19 @@
 
           <article class="slide" aria-roledescription="diapositivo" aria-label="2 de 5">
             <div class="slide-content">
-              <p class="slide-tag">// Óleo-Hidráulica</p>
-              <h2 class="slide-title">Racords &amp;<br><em>Cravação</em><br>de Tubos</h2>
-              <p class="slide-desc">Racords hidráulicos, mangueiras de alta pressão e serviço de cravação de tubos à medida.</p>
-              <a href="#catalogo" class="btn btn-accent">Ver catálogo<span class="btn-arrow" aria-hidden="true">→</span></a>
+              <p class="slide-tag">// Mais Vendidos — Nº2 · TRN-0203</p>
+              <h2 class="slide-title">Compressor<br><em>de Parafuso</em><br>7,5 kW</h2>
+              <p class="slide-desc">Ar comprimido constante e silencioso com variação de velocidade — o compressor mais procurado por oficinas e indústria.</p>
+              <p class="slide-price">PVP 4 990 € <small>IVA incluído</small></p>
+              <a href="catalogo.html?q=TRN-0203" class="btn btn-accent">Ver artigo<span class="btn-arrow" aria-hidden="true">→</span></a>
             </div>
             <div class="slide-art" aria-hidden="true">
               <svg viewBox="0 0 400 400" class="slide-svg">
                 <g fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M60 200c0-60 60-100 140-100s140 40 140 100-60 100-140 100"/>
-                  <circle cx="200" cy="200" r="46"/><circle cx="200" cy="200" r="22"/>
-                  <path d="M200 120v40M200 240v40M120 200h34M246 200h34" stroke-width="6"/>
+                  <rect x="80" y="200" width="240" height="90" rx="45"/>
+                  <circle cx="140" cy="320" r="16"/><circle cx="260" cy="320" r="16"/>
+                  <path d="M140 200v-50h60M200 150h80v50" />
+                  <circle cx="240" cy="120" r="28"/><path d="M240 100v40M220 120h40"/>
                   <path d="M40 360h320" stroke-dasharray="6 8"/>
                 </g>
               </svg>
@@ -99,29 +102,11 @@
 
           <article class="slide" aria-roledescription="diapositivo" aria-label="3 de 5">
             <div class="slide-content">
-              <p class="slide-tag">// Pneumática</p>
-              <h2 class="slide-title">Acessórios<br><em>Pneumáticos</em><br>&amp; Transmissão</h2>
-              <p class="slide-desc">Cilindros, válvulas, engates rápidos, cintas e componentes de transmissão das melhores marcas.</p>
-              <a href="#catalogo" class="btn btn-accent">Ver catálogo<span class="btn-arrow" aria-hidden="true">→</span></a>
-            </div>
-            <div class="slide-art" aria-hidden="true">
-              <svg viewBox="0 0 400 400" class="slide-svg">
-                <g fill="none" stroke="currentColor" stroke-width="2">
-                  <circle cx="130" cy="200" r="70"/><circle cx="130" cy="200" r="30"/>
-                  <circle cx="300" cy="200" r="44"/><circle cx="300" cy="200" r="16"/>
-                  <path d="M130 130c70 0 100 26 170 26M130 270c70 0 100-26 170-26"/>
-                  <path d="M40 360h320" stroke-dasharray="6 8"/>
-                </g>
-              </svg>
-            </div>
-          </article>
-
-          <article class="slide" aria-roledescription="diapositivo" aria-label="4 de 5">
-            <div class="slide-content">
-              <p class="slide-tag">// Soldadura</p>
-              <h2 class="slide-title">Equipamento<br><em>de Soldadura</em><br>Profissional</h2>
-              <p class="slide-desc">Máquinas MIG/MAG, TIG e elétrodos, máscaras e consumíveis para metalomecânica exigente.</p>
-              <a href="#catalogo" class="btn btn-accent">Ver catálogo<span class="btn-arrow" aria-hidden="true">→</span></a>
+              <p class="slide-tag">// Mais Vendidos — Nº3 · TRN-0301</p>
+              <h2 class="slide-title">MIG/MAG<br><em>200A</em><br>Inverter</h2>
+              <p class="slide-desc">Soldadura sinérgica monofásica com tocha e acessórios incluídos — a máquina que mais sai do nosso armazém.</p>
+              <p class="slide-price">PVP 749 € <small>IVA incluído</small></p>
+              <a href="catalogo.html?q=TRN-0301" class="btn btn-accent">Ver artigo<span class="btn-arrow" aria-hidden="true">→</span></a>
             </div>
             <div class="slide-art" aria-hidden="true">
               <svg viewBox="0 0 400 400" class="slide-svg">
@@ -136,20 +121,40 @@
             </div>
           </article>
 
-          <article class="slide" aria-roledescription="diapositivo" aria-label="5 de 5">
+          <article class="slide" aria-roledescription="diapositivo" aria-label="4 de 5">
             <div class="slide-content">
-              <p class="slide-tag">// Ar Comprimido</p>
-              <h2 class="slide-title">Compressores<br><em>&amp; Lubrificação</em><br>Industrial</h2>
-              <p class="slide-desc">Compressores de parafuso e pistão, redes de ar e sistemas de lubrificação para qualquer instalação.</p>
-              <a href="#catalogo" class="btn btn-accent">Ver catálogo<span class="btn-arrow" aria-hidden="true">→</span></a>
+              <p class="slide-tag">// Mais Vendidos — Nº4 · TRN-0601</p>
+              <h2 class="slide-title">Mangueira<br><em>2SN</em><br>+ Cravação</h2>
+              <p class="slide-desc">Mangueira hidráulica de alta pressão com duas tramas de aço e cravação de terminais na hora, à medida.</p>
+              <p class="slide-price">PVP 12,90 €/m <small>IVA incluído</small></p>
+              <a href="catalogo.html?q=TRN-0601" class="btn btn-accent">Ver artigo<span class="btn-arrow" aria-hidden="true">→</span></a>
             </div>
             <div class="slide-art" aria-hidden="true">
               <svg viewBox="0 0 400 400" class="slide-svg">
                 <g fill="none" stroke="currentColor" stroke-width="2">
-                  <rect x="80" y="200" width="240" height="90" rx="45"/>
-                  <circle cx="140" cy="320" r="16"/><circle cx="260" cy="320" r="16"/>
-                  <path d="M140 200v-50h60M200 150h80v50" />
-                  <circle cx="240" cy="120" r="28"/><path d="M240 100v40M220 120h40"/>
+                  <path d="M60 200c0-60 60-100 140-100s140 40 140 100-60 100-140 100"/>
+                  <circle cx="200" cy="200" r="46"/><circle cx="200" cy="200" r="22"/>
+                  <path d="M200 120v40M200 240v40M120 200h34M246 200h34" stroke-width="6"/>
+                  <path d="M40 360h320" stroke-dasharray="6 8"/>
+                </g>
+              </svg>
+            </div>
+          </article>
+
+          <article class="slide" aria-roledescription="diapositivo" aria-label="5 de 5">
+            <div class="slide-content">
+              <p class="slide-tag">// Mais Vendidos — Nº5 · TRN-0802</p>
+              <h2 class="slide-title">Pistola de<br><em>Impacto</em><br>1200 Nm</h2>
+              <p class="slide-desc">Aparafusadora de impacto pneumática 1/2" com jogo de caixas incluído — força industrial para a oficina.</p>
+              <p class="slide-price">PVP 199 € <small>IVA incluído</small></p>
+              <a href="catalogo.html?q=TRN-0802" class="btn btn-accent">Ver artigo<span class="btn-arrow" aria-hidden="true">→</span></a>
+            </div>
+            <div class="slide-art" aria-hidden="true">
+              <svg viewBox="0 0 400 400" class="slide-svg">
+                <g fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="130" cy="200" r="70"/><circle cx="130" cy="200" r="30"/>
+                  <circle cx="300" cy="200" r="44"/><circle cx="300" cy="200" r="16"/>
+                  <path d="M130 130c70 0 100 26 170 26M130 270c70 0 100-26 170-26"/>
                   <path d="M40 360h320" stroke-dasharray="6 8"/>
                 </g>
               </svg>
@@ -208,117 +213,120 @@
 
         <div class="catalog-grid" id="catalog-grid">
 
-          <article class="cat-card reveal" data-group="oficina">
+          <a class="cat-card reveal" data-group="oficina" href="catalogo.html?cat=oficina">
             <span class="cat-ref">CAT.01</span>
             <div class="cat-icon" aria-hidden="true">
               <svg viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="34" width="36" height="4"/><path d="M12 34V18h8v16M28 34V18h8v16"/><rect x="14" y="22" width="20" height="8"/></g></svg>
             </div>
             <h3>Equipamento de Oficina</h3>
             <p>Elevadores, alinhamento de direção, regloscópios e extratores de óleo.</p>
-          </article>
+          </a>
 
-          <article class="cat-card reveal" data-group="oficina">
+          <a class="cat-card reveal" data-group="oficina" href="catalogo.html?cat=compressores">
             <span class="cat-ref">CAT.02</span>
             <div class="cat-icon" aria-hidden="true">
               <svg viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="8" y="22" width="32" height="14" rx="7"/><path d="M16 22v-8h8M24 14h10v8"/><circle cx="16" cy="40" r="3"/><circle cx="32" cy="40" r="3"/></g></svg>
             </div>
             <h3>Compressores</h3>
             <p>Compressores de pistão e parafuso, depósitos e redes de ar comprimido.</p>
-          </article>
+          </a>
 
-          <article class="cat-card reveal" data-group="oficina">
+          <a class="cat-card reveal" data-group="oficina" href="catalogo.html?cat=soldadura">
             <span class="cat-ref">CAT.03</span>
             <div class="cat-icon" aria-hidden="true">
               <svg viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="18" width="20" height="16" rx="2"/><path d="M26 26c8 0 8-8 14-8"/><path d="M40 18l3-5M40 18l5-1M40 18l1-6"/></g></svg>
             </div>
             <h3>Soldadura</h3>
             <p>Máquinas MIG/MAG e TIG, elétrodos, máscaras e consumíveis de soldadura.</p>
-          </article>
+          </a>
 
-          <article class="cat-card reveal" data-group="hidraulica">
+          <a class="cat-card reveal" data-group="hidraulica" href="catalogo.html?cat=hidraulica">
             <span class="cat-ref">CAT.04</span>
             <div class="cat-icon" aria-hidden="true">
               <svg viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2"><circle cx="24" cy="24" r="14"/><circle cx="24" cy="24" r="6"/><path d="M24 4v8M24 36v8M4 24h8M36 24h8" stroke-width="3"/></g></svg>
             </div>
             <h3>Acessórios Hidráulicos</h3>
             <p>Racords, válvulas, bombas e equipamentos de óleo-hidráulica.</p>
-          </article>
+          </a>
 
-          <article class="cat-card reveal" data-group="hidraulica">
+          <a class="cat-card reveal" data-group="hidraulica" href="catalogo.html?cat=pneumatica">
             <span class="cat-ref">CAT.05</span>
             <div class="cat-icon" aria-hidden="true">
               <svg viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="20" width="24" height="8" rx="2"/><path d="M30 24h12M38 20v8"/><path d="M10 20v-6M14 20v-6" /></g></svg>
             </div>
             <h3>Acessórios Pneumáticos</h3>
             <p>Cilindros, válvulas, engates rápidos e tratamento de ar.</p>
-          </article>
+          </a>
 
-          <article class="cat-card reveal" data-group="hidraulica">
+          <a class="cat-card reveal" data-group="hidraulica" href="catalogo.html?cat=tubos">
             <span class="cat-ref">CAT.06</span>
             <div class="cat-icon" aria-hidden="true">
               <svg viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2"><path d="M6 14h20a8 8 0 0 1 8 8v0a8 8 0 0 1-8 8H14a8 8 0 0 0-8 8"/><path d="M6 10v8M42 18v8" stroke-width="3"/></g></svg>
             </div>
             <h3>Tubos &amp; Mangueiras</h3>
             <p>Tubo industrial, mangueiras de alta pressão e cravação à medida.</p>
-          </article>
+          </a>
 
-          <article class="cat-card reveal" data-group="hidraulica">
+          <a class="cat-card reveal" data-group="hidraulica" href="catalogo.html?cat=transmissao">
             <span class="cat-ref">CAT.07</span>
             <div class="cat-icon" aria-hidden="true">
               <svg viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2"><circle cx="16" cy="24" r="10"/><circle cx="34" cy="24" r="6"/><path d="M16 14c10 0 12 4 18 4M16 34c10 0 12-4 18-4"/></g></svg>
             </div>
             <h3>Transmissão &amp; Cintas</h3>
             <p>Correias, polias, rolamentos, correntes e cintas de elevação.</p>
-          </article>
+          </a>
 
-          <article class="cat-card reveal" data-group="ferramentas">
+          <a class="cat-card reveal" data-group="ferramentas" href="catalogo.html?cat=ferramentas">
             <span class="cat-ref">CAT.08</span>
             <div class="cat-icon" aria-hidden="true">
               <svg viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2"><path d="M30 8a10 10 0 1 0 6 18l6 6-4 4-6-6"/><path d="M12 30 6 36l6 6 6-6"/></g></svg>
             </div>
             <h3>Ferramentas</h3>
             <p>Ferramenta manual, elétrica e pneumática para uso profissional.</p>
-          </article>
+          </a>
 
-          <article class="cat-card reveal" data-group="ferramentas">
+          <a class="cat-card reveal" data-group="ferramentas" href="catalogo.html?cat=fixacao">
             <span class="cat-ref">CAT.09</span>
             <div class="cat-icon" aria-hidden="true">
               <svg viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2"><path d="M24 4l6 6-2 2 8 8 4-1 4 4-8 8-4-4 1-4-8-8-2 2-6-6z"/><path d="M8 34l6 6M6 42l8-8" stroke-width="3"/></g></svg>
             </div>
             <h3>Fixação &amp; Parafusaria</h3>
             <p>Parafusos, porcas, anilhas, buchas e sistemas de fixação.</p>
-          </article>
+          </a>
 
-          <article class="cat-card reveal" data-group="ferramentas">
+          <a class="cat-card reveal" data-group="ferramentas" href="catalogo.html?cat=lubrificacao">
             <span class="cat-ref">CAT.10</span>
             <div class="cat-icon" aria-hidden="true">
               <svg viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6h8v6l4 4v26a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4V16l4-4z"/><path d="M16 28h16" stroke-width="3"/></g></svg>
             </div>
             <h3>Lubrificação</h3>
             <p>Massas, óleos, bombas de lubrificação e acessórios de trasfega.</p>
-          </article>
+          </a>
 
-          <article class="cat-card reveal" data-group="materiais">
+          <a class="cat-card reveal" data-group="materiais" href="catalogo.html?cat=acos">
             <span class="cat-ref">CAT.11</span>
             <div class="cat-icon" aria-hidden="true">
               <svg viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2"><path d="M6 36h36M10 36V20l8-6v22M26 36V14l8-6v28"/></g></svg>
             </div>
             <h3>Aços &amp; Ferros</h3>
             <p>Perfis, chapas, varões e tubos em aço e ferro para construção mecânica.</p>
-          </article>
+          </a>
 
-          <article class="cat-card reveal" data-group="materiais">
+          <a class="cat-card reveal" data-group="materiais" href="catalogo.html?cat=metalomecanica">
             <span class="cat-ref">CAT.12</span>
             <div class="cat-icon" aria-hidden="true">
               <svg viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2"><circle cx="24" cy="24" r="8"/><path d="M24 6v6M24 36v6M6 24h6M36 24h6M11 11l4 4M33 33l4 4M37 11l-4 4M11 37l4-4"/></g></svg>
             </div>
             <h3>Metalomecânica</h3>
             <p>Materiais e equipamentos diversos para a indústria metalomecânica.</p>
-          </article>
+          </a>
 
         </div>
 
-        <p class="catalog-note reveal">Não encontra o que procura? <a href="#contactos">Fale connosco</a> — importamos por encomenda.</p>
+        <div class="catalog-cta reveal">
+          <a href="catalogo.html" class="btn btn-accent">Ver catálogo completo<span class="btn-arrow" aria-hidden="true">→</span></a>
+          <p class="catalog-note">Não encontra o que procura? <a href="#contactos">Fale connosco</a> — importamos por encomenda.</p>
+        </div>
       </div>
     </section>
 
@@ -471,7 +479,7 @@
       </div>
       <nav class="footer-nav" aria-label="Navegação de rodapé">
         <a href="#topo">Início</a>
-        <a href="#catalogo">Catálogo</a>
+        <a href="catalogo.html">Catálogo</a>
         <a href="#noticias">Notícias</a>
         <a href="#sobre">Sobre</a>
         <a href="#contactos">Contactos</a>
